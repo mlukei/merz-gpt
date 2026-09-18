@@ -1,0 +1,52 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editors, notebooks, and operating systems
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated framework caches
+unsloth_compiled_cache/
+.cache/
+huggingface_cache/
+
+# Full local datasets and extraction artifacts
+dataset/download/
+dataset/raw/
+dataset/training_data/
+data/download/
+data/raw/
+data/processed/
+data/cache/
+data/logs/
+data/progress/
+
+# Training runs, checkpoints, and local model artifacts
+merz_lora_adapter/checkpoint-*/
+merz_lora_adapter/final_adapter/
+artifacts/
+checkpoint-*/
+runs/
+wandb/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Keep only small, synthetic examples in version control
+!data/examples/
+!data/examples/**

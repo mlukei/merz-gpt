@@ -1,0 +1,12 @@
+# Install the appropriate PyTorch build for the target CUDA version first.
+unsloth==2026.9.2
+unsloth-zoo==2026.9.1
+trl==0.24.0
+transformers==4.57.6
+datasets==4.3.0
+peft==0.20.0
+bitsandbytes==0.50.2
+torchao>=0.13.0
+pandas==3.0.5
+fsspec[http]>=2023.1.0,<=2025.9.0
+bundestag-protocol-extractor==0.3.3

@@ -1,0 +1,3 @@
+id,text,date,protocol_id,speaker_id,speaker_first_name,speaker_last_name,extraction_method,extraction_status
+example-speech-2,"This synthetic test sentence describes a routine committee schedule. (Applause)",2025-01-02,example-protocol,example-speaker,Ada,Beispiel,xml,complete
+example-speech-1,"This synthetic test sentence records a neutral agenda item.",2025-01-01,example-protocol,example-speaker,Ada,Beispiel,xml,complete
